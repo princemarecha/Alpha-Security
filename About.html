@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width =device-width, initial-scale = 1.0">
+    <meta http-equiv="X-UA Compatible" content="ie-edge">
+    <meta name=”description” content=”Alpha Automation Systems is a dynamic company that offers Electronics Security Services at very affordable prices.”>
+    <meta name="keywords" content="Alpha Automation Systems, John Hatumwi, Maxmos Makuwerere, Zimbabwe Automation, Zimbabwe Security Solutions, Alpha, Automation, Harare Security">
+    <meta name="author" content="John Hatumwi, Maxmos Makuwerere">
+    <link rel="stylesheet" href="css/person2.min.css">
+    <link rel="stylesheet" href="css/modal.min.css">
+    <link rel="stylesheet" href="css/submenu2.min.css">
+    <link rel="stylesheet" href="css/Bio.min.css">
+    <link rel="stylesheet" href="css/socials.min.css">
+    <link rel="stylesheet" href="https://use.typekit.net/oov2wcw.css">
+    <link rel="stylesheet" type="text/css" href="fontawesome-free-5.13.1-web\css\all.min.css">
+    <link rel="icon" type="image/png" href="images/alpha.ico">
+    <script defer src="scripts/script.min.js"></script>
+    <title >Alpha Automation Systems | About</title>
+
+</head>
+<body>
+
+<div class="container topbackground">
+    <header>
+        <div class="logo-container"> <img src="images/alpha.png" alt="Company's logo" class="logo logo-top"></div>
+        <nav>
+            <a href="#" class="hide-desktop" id="hamburger" >
+                <img src="../images/hamburger.png" alt="Show Menu" id="menu"/>
+            </a>
+            <ul class="show-desktop hide-mobile" id="navi">
+
+
+                <li class="exit-btn hide-desktop" ><img src="images/exit.png" alt="exit" id="exit"></li>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#">SERVICES</a>
+                    <ul class="submenu" id="sub">
+                        <li><a data-modal-target="#modal">CCTV</a></li>
+                        <li><a data-modal-target="#modal2">Electric Fence</a></li>
+                        <li><a data-modal-target="#modal3">Access Control</a></li>
+                        <li><a data-modal-target="#modal4">Alarm Systems</a></li>
+                        <li><a data-modal-target="#modal5">Gate Automation</a></li>
+                        <li><a data-modal-target="#modal6">Intercoms</a></li>
+                        <li><a data-modal-target="#modal7">Solar Systems</a></li>
+                        <li><a data-modal-target="#modal8">Smart Homes</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="About.html" class="active">ABOUT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+</div>
+<div class="middle container">
+    <h2 class="title-style" style="color: #3d444a">Company Summary</h2>
+
+    <p class="subtitle-style" style="color: #3d444a">Alpha Automation Systems is a dynamic company that was born in 2020. The formation of the company was inspired by the technology gap found in Zimbabwe. It’s young and energetic leaders are
+        Determined, Dedicated, Resilient and experienced in their aim to fill that gap.</p>
+</div>
+
+<div class="bio-container">
+<div class="card">
+    <div class="content">
+        <h4>Projects Director</h4>
+        <img src="images/other.JPG">
+        <h5>TBA</h5>
+    </div>
+</div>
+    <div class="card">
+        <div class="content">
+            <h4>Managing Director</h4>
+            <img src="images/john.jpg">
+            <h5>John M. Hatumwi</h5>
+        </div>
+    </div>
+    <div class="card">
+        <div class="content">
+            <h4>Finance and Admin Director</h4>
+            <img src="images/max.jpg">
+            <h5>Maxmos T. Makuwerere</h5>
+        </div>
+    </div>
+</div>
+
+<section class="container">
+    <div class="stats">
+        <h3 style="color: #353f44">MISSION</h3>
+        <p style="color: #353f44">Filling the technology gap found in Zimbabwe whilst serving our clients with honor and integrity, as well as providing quality services,
+        making sure we create a better and automated Zimbabwe.</p>
+    </div>
+    <div class="stats">
+        <h3 style="color: #353f44">VISION</h3>
+        <p style="color: #353f44">To be the leaders of Electronic
+            Security as well as Home, Office and
+            Industrial Automation in Zimbabwe
+            by the year 2030.
+        </p>
+    </div>
+    <div class="stats">
+        <h3 style="color: #353f44">VALUES</h3>
+        <p style="color: #353f44">Dedication, Commitment, Resilience,
+            Healthy and Safety.
+        </p>
+    </div>
+
+</section>
+
+<div class="socials" >
+    <a href="https://www.facebook.com/alphaautomationsystems"><i class="fab fa-facebook-square"></i></a>
+    <a href="https://twitter.com/alphaautomate"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.linkedin.com/company/alpha-automation-systems"><i class="fab fa-linkedin"></i></a>
+    <a href="https://www.instagram.com/alphaautomationsystems/"><i class="fab fa-instagram"></i></a>
+</div>
+
+<footer>
+    <div class="footer-container">
+        <div class="container">
+            <a>
+                <img src="images/alpha.jpg" alt="Footer Logo" class="logo">
+            </a>
+            <p class="address">8644 Southlands Park
+                <br/>Harare <br/>info@alphaautomate.co.zw<br/>(+263) 0783006839 / (+263) 0783348386</p>
+            <ul class="footer-links">
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+<script>
+
+    var menu = document.getElementById("menu");
+    var nav = document.getElementById("navi")
+    var exit = document.getElementById("exit");
+    var sub = document.getElementById("sub");
+    var cta = document.getElementById("cta");
+    var ham = document.getElementById("hamburger")
+
+    menu.addEventListener("click", function (e) {
+        nav.classList.toggle("hide-mobile");
+        ham.classList.add("disappear")
+    });
+
+
+    sub.addEventListener("click", function (e) {
+        nav.classList.add("hide-mobile");
+        ham.classList.toggle("disappear")
+
+    });
+    exit.addEventListener("click", function (e) {
+        nav.classList.add("hide-mobile");
+        ham.classList.toggle("disappear")
+
+    });
+
+</script>
+<div class="modal" id="modal">
+    <div class="modal-header">
+        <div class="title">CCTV</div>
+        <button data-close-button class="close-button">&times;</button>
+    </div>
+    <div class="modal-body" style="text-align: center">
+        <img style="width: 80%; border-radius: 3px;" src="images/bg%202.jpg" alt="">
+        <p> The camera sees more
+            than an eye, so why not
+            use it? We specialize in
+            both IP and Analogue
+            cameras </p>
+    </div>
+</div>
+
+<div class="modal" id="modal2">
+    <div class="modal-header">
+        <div class="title">Electric Fence</div>
+        <button data-close-button class="close-button">&times;</button>
+    </div>
+    <div class="modal-body" style="text-align: center">
+        <img style="width: 80%; border-radius: 3px;" src="images/electric%20fence.jpg" alt="">
+        <p>The main goal of
+            installing an electric
+            fence is to keep intruders
+            from tempering with
+            your wall.
+        </p>
+    </div>
+</div>
+
+<div class="modal" id="modal3">
+    <div class="modal-header">
+        <div class="title">Access Control</div>
+        <button data-close-button class="close-button">&times;</button>
+    </div>
+    <div class="modal-body" style="text-align: center">
+        <img style="width: 80%; border-radius: 3px;" src="images/access%20control.jpg" alt="">
+        <p> We offer suitable access
+            control systems that will
+            match your specific
+            requirements. </p>
+    </div>
+</div>
+
+<div class="modal" id="modal4">
+    <div class="modal-header">
+        <div class="title">Alarm Systems</div>
+        <button data-close-button class="close-button">&times;</button>
+    </div>
+    <div class="modal-body" style="text-align: center">
+        <img style="width: 80%; border-radius: 3px;" src="images/alarm.jpg" alt="">
+        <p> Install an intruder alarm
+            system with us to alert
+            you when your property
+            is being invaded by
+            thieves </p>
+    </div>
+</div>
+
+<div class="modal" id="modal5">
+    <div class="modal-header">
+        <div class="title">Gate Automation</div>
+        <button data-close-button class="close-button">&times;</button>
+    </div>
+    <div class="modal-body" style="text-align: center">
+        <img style="width: 80%; border-radius: 3px;" src="images/gates.jpg" alt="">
+        <p> Tired of pushing your
+            gate? Get in touch with
+            us and get to open and
+            close your gate at the
+            push of a button.  </p>
+    </div>
+</div>
+
+<div class="modal" id="modal6">
+    <div class="modal-header">
+        <div class="title">Intercoms</div>
+        <button data-close-button class="close-button">&times;</button>
+    </div>
+    <div class="modal-body" style="text-align: center">
+        <img style="width: 80%; border-radius: 3px;" src="images/intercom.jpg" alt="">
+        <p>We specialize in the
+            installation of both audio
+            and video intercom
+            systems. </p>
+    </div>
+</div>
+
+<div class="modal" id="modal7">
+    <div class="modal-header">
+        <div class="title">Solar Systems</div>
+        <button data-close-button class="close-button">&times;</button>
+    </div>
+    <div class="modal-body" style="text-align: center">
+        <img style="width: 80%; border-radius: 3px;" src="images/solar.jpg" alt="">
+        <p> We specialize in
+            designing, installing and
+            maintenance of high
+            quality commercial solar
+            systems for your home
+            and business. </p>
+    </div>
+</div>
+
+<div class="modal" id="modal8">
+    <div class="modal-header">
+        <div class="title">Smart Homes</div>
+        <button data-close-button class="close-button">&times;</button>
+    </div>
+    <div class="modal-body" style="text-align: center">
+        <img style="width: 80%; border-radius: 3px;" src="images/smart%20homes.jpg" alt="">
+        <p> Let us help you manage
+            your home from
+            anywhere. </p>
+    </div>
+</div>
+<div id="overlay"></div>
+
+<script type="text/javascript" src="scripts/vanilla-tilt.min.js"></script>
+<script>
+    VanillaTilt.init(document.querySelectorAll(".card"), {
+        max: 25,
+        speed: 400,
+        glare: true,
+        "max-glare": 0.5,
+    });
+</script>
+
+</body>
