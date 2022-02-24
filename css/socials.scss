@@ -1,0 +1,22 @@
+.socials{
+  padding-bottom: 15vh;
+  text-align: center;
+  font-size: 10vw;
+
+}
+.socials a{
+  color: #3d444a;
+  padding: 0 5px 0 5px;
+}
+.socials a:hover{
+  color: grey;
+  transition: 500ms;
+}
+@media screen and (min-width: 720px) {
+  .socials{
+    font-size: 5vw;
+  }
+  .socials a{
+    padding: 0 12px 0 12px;
+  }
+}

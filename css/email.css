@@ -1,0 +1,116 @@
+input[type=email],
+input[type=number],
+input[type=text],
+textarea {
+  margin: 5px 0 7px 0;
+  border: none;
+  padding-left: 5px;
+}
+
+input[type=email],
+input[type=number],
+input[type=text] {
+  margin: 5px 0 7px 0;
+  border: none;
+  border-bottom: 1px solid purple;
+}
+
+.email-bottom {
+  display: flex;
+}
+
+.row-tab-comment {
+  margin-top: 15px;
+}
+
+textarea {
+  width: 90%;
+  height: 20vh;
+  border: 1px dashed purple;
+}
+
+select {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid purple;
+  padding-top: 5px;
+}
+
+input[type=text] {
+  width: 70%;
+}
+
+input[type=email] {
+  width: 80%;
+}
+
+.breaker {
+  margin-right: auto;
+}
+
+.label-tab {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: purple;
+}
+
+.modal-title {
+  color: purple;
+}
+
+.btn-close-purple {
+  background-color: purple;
+  color: white;
+  border: none;
+  padding: 13px;
+  border-radius: 5px;
+}
+
+.btn-close-purple:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  transition: ease-in 500ms;
+}
+
+.buy {
+  color: green;
+}
+
+.cta:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 1px #00cc80 solid;
+  color: #00cc80;
+  transition: ease-in-out 500ms;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@media only screen and (max-width: 570px) {
+  textarea {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 720px) {
+  .label-tab > label {
+    font-size: 11pt;
+  }
+
+  input[type=email] {
+    width: 100%;
+  }
+
+  input[type=number] {
+    width: 50%;
+  }
+
+  select {
+    width: 130%;
+  }
+}
+
+/*# sourceMappingURL=email.css.map */
